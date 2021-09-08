@@ -1,0 +1,133 @@
+#icone {
+    font-size: 100px;
+    margin: 10px;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+div {
+    
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin: 5px 0px;    
+}
+
+.p-flex {
+    flex-basis: 80px;
+    
+}
+
+main { 
+    /* height: 100%; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+#container {
+    width: 300px;
+}
+
+.barra {
+    background-color: black;
+    height: 19px;
+}
+
+header {
+    /* background-color: #495057; */
+    background-color:  #008ee2;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #adb5bd;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #ced4da;
+    
+}
+
+footer {
+    background-color:  #008ee2;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;    
+}
+
+#leftUp {
+     position: absolute;     
+     top: 0px;
+     left: 0px;
+}
+
+#rightUp {
+    position: absolute;    
+    top: 0px;
+    right: 0px;
+}
+
+#leftBottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#rightBottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#centerUp {
+    position: absolute;
+    right: 50%;    
+    transform: translateX(-50%);
+}
+
+#centerBottom {
+    position: absolute;
+    right: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+} 
+
+i {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+#kenzie {
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
